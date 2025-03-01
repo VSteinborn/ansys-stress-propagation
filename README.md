@@ -1,0 +1,1 @@
+# ansys-stress-propagation
