@@ -10,11 +10,7 @@ on:
 permissions:
   contents: write
   
-env:
-  CARGO_TERM_COLOR: always
-
 jobs:
-
   build-and-upload:   
     name: Build and upload
     runs-on: ${{ matrix.os }}
