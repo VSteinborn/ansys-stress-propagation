@@ -6,7 +6,7 @@ It is intended to be used for quickly finding the spacial extrema of different s
 
 ![Spheres With Boundaries](images/sphere.png)
 
-In the figure, the maximum x value, $x_{max}$, for the stress boundary $S$ is illustrated schematically.
+In the figure, the maximum X value, $x_{max}$, for the stress boundary $S$ is illustrated schematically.
 
 This code allows you to find the exact maximum and minimum values of X, Y and Z for a given boundary without relying on the graphical user interface of Ansys.
 
