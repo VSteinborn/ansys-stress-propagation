@@ -32,7 +32,17 @@ The maximum X coordinate of a node that has a stress greater than -2.8 MPa (-2.8
 
 ## How to run this code
 
-TODO
+Download the `ansys-strain-propagation` binary in the releases tab (or build the binary from source if you have Rust installed), and run the following command in the terminal. (Note: How the relevant output file is obtained from Ansys is outlined in the next section).
+
+```sh
+ansys-strain-propagation <strain boundary> <path/to/ansys/file.txt>
+```
+
+So if for example, if both the `ansys-strain-propagation` binary and the output data file (which I will call `ANSYS_SXY_file.txt`) are in the same directory, then if we want to investigate the 1.4 MPa strain boundary, we would simply run the following command in the terminal:
+
+```sh
+ansys-strain-propagation 1.4 ANSYS_SXY_file.txt
+```
 
 ## Getting the data from Ansys
 
